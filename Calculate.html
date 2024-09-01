@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Fraction Calculator</title>
+</head>
+<body>
+    <h1>Simple Fraction Calculator</h1>
+    <form>
+        <label for="ts1">Tử số thứ 1:</label>
+        <input type="number" id="ts1" name="ts1">
+        <br><br>
+        <label for="ms1">Mẫu số thứ 1:</label>
+        <input type="number" id="ms1" name="ms1">
+        <br><br>
+        <label for="ts2">Tử số thứ 2:</label>
+        <input type="number" id="ts2" name="ts2">
+        <br><br>
+        <label for="ms2">Mẫu số thứ 2:</label>
+        <input type="number" id="ms2" name="ms2">
+        <br><br>
+        <button type="button" onclick="addFractions()">Add</button>
+        <button type="button" onclick="subtractFractions()">Subtract</button>
+        <button type="button" onclick="multiplyFractions()">Multiply</button>
+        <button type="button" onclick="divideFractions()">Divide</button>
+    </form>
+    <br>
+    <p id="result"></p>
+
+    <script src="script/calculate.js"></script>
+</body>
+</html>
