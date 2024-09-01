@@ -7,7 +7,7 @@ function addFractions() {
     var msc = ms1 * ms2;
     var Newts = ts1 * ms2 + ts2 * ms1;
 
-    document.getElementById("result").innerText = "Result: " + Newts + "/" + msc;
+    document.getElementById("result").innerText = "Kết quả phép tính cộng: " + Newts + "/" + msc;
 }
 
 function subtractFractions() {
@@ -19,7 +19,7 @@ function subtractFractions() {
     var msc = ms1 * ms2;
     var Newts = ts1 * ms2 - ts2 * ms1;
 
-    document.getElementById("result").innerText = "Result: " + Newts + "/" + msc;
+    document.getElementById("result").innerText = "Kết quả phép tính trừ: " + Newts + "/" + msc;
 }
 
 function multiplyFractions() {
@@ -31,7 +31,7 @@ function multiplyFractions() {
     var Newms = ms1 * ms2;
     var Newts = ts1 * ts2;
 
-    document.getElementById("result").innerText = "Result: " + Newts + "/" + Newms;
+    document.getElementById("result").innerText = "Kết quả phép tính nhân: " + Newts + "/" + Newms;
 }
 
 function divideFractions() {
@@ -43,5 +43,5 @@ function divideFractions() {
     var Newms = ms1 * ts2;
     var Newts = ts1 * ms2;
 
-    document.getElementById("result").innerText = "Result: " + Newts + "/" + Newms;
+    document.getElementById("result").innerText = "Kết quả phép tính chia: " + Newts + "/" + Newms;
 }
